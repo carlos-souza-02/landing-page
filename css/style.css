@@ -1,0 +1,249 @@
+* {
+padding: 0;
+}
+
+
+.bg-light{
+    background-color: #FFFFFF !important;
+}
+.navbar-brand{
+    display: inline-block;
+    padding-top: -0.687rem;
+    padding-bottom: -3.687rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    height: 80px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #00796B !important;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    font-weight: bold;
+    padding: 10px;
+    color: #FF5252 !important;
+}
+
+.btn-outline-success {
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.btn-outline-success{
+    background-color: #00796B;
+    color: white;
+    border-color:  #00796B;
+}
+.btn-outline-success:hover{
+    color: #fff;
+    background-color: #FF5252;
+    border-color: #FF5252;
+}
+.form-control:focus{
+    border: 2px solid rgb(255, 82, 82) !important;
+    box-shadow: 0 0 0 .2rem rgba(255, 82, 82, 0.5);
+}
+
+.w-100 {
+    width: 100% !important;
+    max-height:768px;
+}
+
+.services {
+    display: flex;
+    width: 93%;
+    height: 385px;
+    min-height: 10vh;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.text-aling {
+    text-align: center;
+    padding: 15px 0 5px;
+    text-transform: uppercase;
+    color:#009688 ;
+    font-size: 20px;
+}
+
+.text-aling-h2 {
+    text-align: center;
+    font-size: 30px;
+    padding: 25px 0 5px;
+    text-transform: uppercase;
+    color:#009688 ;
+}
+
+.services-col{
+        padding-top:10px ;
+        width: 31%;
+        border: 1px solid rgb(209, 209, 209);
+}
+
+.services-col img{
+    width: 100%;
+    height: 325px;
+}
+
+.third-section {
+    display:flex;
+    width: 100%;
+    background-color: rgb(224, 224, 224);
+    padding: 100px 50px;
+    justify-content: space-between;
+
+}
+.third-section-col {
+    width: 49%;
+}
+
+.third-section-col img{
+    width: 100%;
+}
+
+.final-section {
+    display:flex;
+    width: 100%;
+    padding: 0px 50px 10px 50px;
+    justify-content: space-between;
+
+}
+
+.final-section-col{  
+    width: 49%;
+    margin-bottom: 50px;
+}
+
+.text-control{
+    width: 100%;
+    height: 30px;
+    padding: 15px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid#00796B;
+}
+
+.final-section-col textarea{
+    height: 200px;
+}
+
+
+.final-section-col button{
+    padding: 10px 25px;
+}
+
+.final-section-col iframe{
+    width: 100%;
+    height: 310px;
+    border-radius: 7px;
+}
+
+.text-aling-h2-contact {
+    text-align: left;
+    font-size: 30px;
+    padding: 100px 0 0 50px;
+    text-transform: uppercase;
+    color: #009688;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(224, 224, 224);
+}
+
+.footer-section-div {
+    width: 80%;
+    height: 50px;
+    text-align: center;
+}
+
+.footer-section img {
+    width: 50px;
+}
+
+@media(max-width: 768px){
+
+    .services {
+        display: inline;
+    }
+    .services-col{
+        padding-top:10px ;
+        width: 100%;       
+        border: 1px solid rgb(209, 209, 209);
+    }
+    .text-aling-h2 {
+        text-align: center;
+        font-size: 30px;
+        padding: 25px 0 5px;
+        text-transform: uppercase;
+        color:#009688 ;
+    }
+
+    .services-col img{
+        height: 200px;
+    }
+    .third-section {
+        display:block;
+        background-color: rgb(224, 224, 224);
+        height: 650px;
+        padding: 50px 10px;
+
+    
+    }
+    .third-section-col {
+        display: block;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .third-section-col img{
+        height: 300px;
+        width: 100%;
+    }
+
+    .final-section {
+        display:block;
+        padding: 0 10px;
+
+    }
+    .text-aling-h2-contact {
+        padding: 20px;
+        text-align: center;
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #009688;
+    }
+
+    .final-section-col{  
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .final-section-col iframe{
+        width: 100%;
+        height: 250px;
+        border-radius: 7px;
+    }
+    .bg-light a{
+        text-align: center;
+        font-size: 25px;
+    }
+    .navbar-light .navbar-brand {
+        height: 50px;
+    }
+
+
+}
