@@ -3,7 +3,8 @@
 :heavy_check_mark: Desafio DIgital House
 
 Este desafio foi proposto para treinamento com HTML, CSS e Bootstrap.
-##Objetivo.
+
+### Objetivo.
 
   :ballot_box_with_check:Identidade visual
   
